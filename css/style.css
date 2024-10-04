@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+body h1 {
+  margin-bottom: 3rem;
+}
+
+.header {
+  width: 60%;
+}
+
+input,
+button {
+  font-size: 3rem;
+}
+
+input {
+  width: 60%;
+}
+
+.container {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  gap: 6rem;
+}
+
+.container img {
+  width: 80%;
+}
+
+.container p {
+  font-size: 4rem;
+}
